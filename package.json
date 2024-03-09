@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@opentiny/unplugin-tiny-vue": "^0.0.1",
+    "@opentiny/vue": "^3.14.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {

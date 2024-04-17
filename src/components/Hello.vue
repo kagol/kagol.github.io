@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { blogUrl } from '../shared'
+
 defineProps<{ msg: string }>()
 </script>
 
@@ -8,7 +10,7 @@ defineProps<{ msg: string }>()
   <p>「诚实和勤勉，应该成为你永久的伴侣。」</p>
 
   <p>
-    我的博客：<a href="https://kagol.gitee.io/blogs/" target="_blank">https://kagol.gitee.io/blogs/</a>
+    我的博客：<a :href="blogUrl" target="_blank">{{ blogUrl }}</a>
   </p>
 </template>
 

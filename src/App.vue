@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import Hello from './components/Hello.vue'
+import { blogUrl } from './shared'
 </script>
 
 <template>
   <div>
-    <a href="https://kagol.gitee.io/blogs/" target="_blank">
+    <a :href="blogUrl" target="_blank">
       <img src="/image.jpg" class="logo" alt="Kagol logo" />
     </a>
   </div>

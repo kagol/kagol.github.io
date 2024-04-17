@@ -1,20 +1,14 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import Hello from './components/Hello.vue'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    <a href="https://kagol.gitee.io/blogs/" target="_blank">
+      <img src="/image.jpg" class="logo" alt="Kagol logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
-  <tiny-button>确定</tiny-button>
+  <Hello msg="Hello Kagol" />
 </template>
 
 <style scoped>
@@ -24,9 +18,6 @@ import HelloWorld from './components/HelloWorld.vue'
   will-change: filter;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+  filter: drop-shadow(0 0 2em #eaea9e);
 }
 </style>
